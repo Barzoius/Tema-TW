@@ -1,0 +1,217 @@
+:root {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Open Sans';
+  
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary:#f5bf8a;
+    --bg-secondary: #e1a76e;
+    --transition-speed: 600ms;    
+  
+    color-scheme: pink;
+    color: black;
+    background-color: wheat;
+  
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  body::-webkit-scrollbar{
+  width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track{
+  background: black;
+  }
+  
+  body::-webkit-scrollbar-thumb{
+  background: red;
+  }
+  
+  body::-webkit-scrollbar-button{
+  background: blue;
+  }
+  
+  main {
+    text-align: center;
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+
+  main{
+    margin-left: 5rem;
+    padding: 1rem;
+    
+  }
+  
+  header:not(.card-header){
+
+    padding: 1rem;
+
+    margin-bottom: 1rem; 
+
+    padding-bottom: 3.5em;
+    text-align: center;
+   
+    align-items: center;
+  }
+
+  .logo {
+    height: 5em;
+    padding: 1.5em;
+    will-change: filter;
+    transition: filter 300ms;
+  }
+  .logo:hover {
+    filter: drop-shadow(0 0 2em #000000aa);
+  }
+
+  .container {
+    display: grid;
+    width: 70%;
+    margin: 0 auto; /* Center the container horizontally */
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    justify-items: center; /* Center the grid items horizontally */
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box; /* Include padding in the total width and height */
+  }
+  
+  .item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Maintain the aspect ratio of the images */
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    /*color: purple;---faster wr color access---
+    /*background-color: green;---fester color access---*/
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+  }
+
+  p {
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .mar {
+    position: relative;
+    text-align: center;
+  }
+  
+  .marlogo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+  }
+
+  .flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  img {
+    max-width: 200px;
+    height: auto;
+  }
+
+  .yonko {
+    position: relative;
+    text-align: center;
+  }
+  
+  .yokologo {
+    display: block;
+    margin: 0 auto;
+    
+    max-width: 50%; /* Allow the image to grow or shrink within the maximum width */
+    height: auto; 
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 300px;
+    height: 350px;
+    border: 2px solid rgb(176, 49, 70);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  #emailForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    padding: 8px 16px;
+    background-color: rgb(176, 49, 70);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #thankYouMessage {
+    margin-top: 20px;
+  }
+
+  .flex-yonko {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .text-container {
+    margin-left: 10px;
+  }
+  
+
